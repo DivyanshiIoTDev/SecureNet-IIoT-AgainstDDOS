@@ -20,7 +20,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-predictor = DDOSPredictor(model_path="backend/model.pkl", parquet_path="backend/test_preprocessed.parquet")
+model_path = os.getenv("MODEL_PATH", "backend/model.pkl")
+parquet_path = os.getenv("DATASET_PATH", "backend/test_preprocessed.parquet")
+predictor = DDOSPredictor(model_path=model_path, parquet_path=parquet_path)
 mongo = MongoManager()
 
 
