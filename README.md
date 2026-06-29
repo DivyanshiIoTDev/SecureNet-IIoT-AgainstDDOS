@@ -7,8 +7,7 @@ This project focuses on the detection and mitigation of **Distributed Denial-of-
 The system leverages advanced traffic analysis and anomaly detection methods to classify malicious and benign network traffic in real time. Using datasets such as **CICIDS2023**, the project applies models including:
 
 - Random Forest
-- Convolutional Neural Networks (CNN)
-- Deep Learning-based anomaly detection
+- Advanced Machine Learning-based anomaly detection
 - Feature engineering and traffic classification techniques
 
 The goal is to create a scalable and intelligent cybersecurity solution capable of protecting modern IoT infrastructures from evolving DDoS threats.
@@ -20,7 +19,7 @@ The goal is to create a scalable and intelligent cybersecurity solution capable 
 - 🔍 Real-time DDoS attack detection
 - 🤖 Machine Learning & Deep Learning algorithms used
 - 📊 Traffic classification using CICIDS2023 dataset
-- 🧠 Random Forest and CNN-based anomaly detection
+- 🧠 Random Forest anomaly detection
 - 🌐 Designed for IoT and Industrial IoT environments
 - ⚡ Feature selection and preprocessing pipeline
 - 📈 High scalability for large network environments
